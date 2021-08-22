@@ -92,9 +92,9 @@ def bot_help(update, context):
     help_string_adm = f'''
 /{BotCommands.HelpCommand}: To get this message
 
-/{BotCommands.MirrorCommand} [download_url][magnet_link]: Start mirroring the link to Google Drive.
+/{BotCommands.Mirror2Command} [download_url][magnet_link]: Start mirroring the link to Google Drive.
 
-/{BotCommands.UnzipMirrorCommand} [download_url][magnet_link]: Starts mirroring and if downloaded file is any archive, extracts it to Google Drive
+/{BotCommands.UnzipMirror2Command} [download_url][magnet_link]: Starts mirroring and if downloaded file is any archive, extracts it to Google Drive
 
 /{BotCommands.TarMirrorCommand} [download_url][magnet_link]: Start mirroring and upload the archived (.tar) version of the download
 
@@ -146,9 +146,9 @@ def bot_help(update, context):
     help_string = f'''
 /{BotCommands.HelpCommand}: To get this message
 
-/{BotCommands.MirrorCommand} [download_url][magnet_link]: Start mirroring the link to Google Drive.
+/{BotCommands.Mirror2Command} [download_url][magnet_link]: Start mirroring the link to Google Drive.
 
-/{BotCommands.UnzipMirrorCommand} [download_url][magnet_link]: Starts mirroring and if downloaded file is any archive, extracts it to Google Drive
+/{BotCommands.UnzipMirror2Command} [download_url][magnet_link]: Starts mirroring and if downloaded file is any archive, extracts it to Google Drive
 
 /{BotCommands.TarMirrorCommand} [download_url][magnet_link]: Start mirroring and upload the archived (.tar) version of the download
 
@@ -182,9 +182,9 @@ def bot_help(update, context):
 
 
 botcmds = [
-BotCommand(f'{BotCommands.MirrorCommand}', 'Start Mirroring'),
+BotCommand(f'{BotCommands.Mirror2Command}', 'Start Mirroring'),
 BotCommand(f'{BotCommands.TarMirrorCommand}','Upload tar (zipped) file'),
-BotCommand(f'{BotCommands.UnzipMirrorCommand}','Extract files'),
+BotCommand(f'{BotCommands.UnzipMirror2Command}','Extract files'),
 BotCommand(f'{BotCommands.CloneCommand}','Copy file/folder to Drive'),
 BotCommand(f'{BotCommands.CountCommand}','Count file/folder of Drive link'),
 BotCommand(f'{BotCommands.WatchCommand}','Mirror YT-DL support link'),
