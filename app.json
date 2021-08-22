@@ -1,15 +1,15 @@
 {
-    "name": "Deepak Clouds Mirror",
+    "name": "ccgnimeX Team Drive",
     "description": "A Telegram bot for all your mirror needs",
-    "logo": "https://imagetot.com/images/2021/06/17/d7e86862ce2686f4c6c6596bfa72785d.jpg",
+    "logo": "https://telegra.ph/file/067e7f3575f37be53b8c9.jpg",
     "keywords": [
       "bot",
       "telegram",
       "python"
     ],
-    "repository": "https://github.com/deepakcloudsoffical/deepak-clouds-mirror",
-    "website": "https://github.com/blackdeep04/deepak-clouds-mirror",
-    "success_url": "https://t.me/cloudsmirror",
+    "repository": "https://github.com/Myudi422/ccgnimeX_leechX",
+    "website": "https://Instagram.com/akuiiki",
+    "success_url": "https://t.me/ccgnimeX",
     "stack": "container",
     "env": {
       "ENV": {
@@ -76,7 +76,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "Link for Bot Upstream Repo, If you want default update, Fill https://github.com/blackdeep04/deepak-clouds-mirror.",
-        "value": "https://github.com/blackdeep04/deepak-clouds-mirror",
+        "value": "https://github.com/Myudi422/ccgnimeX_leechX",
         "required": true
       },
       "UPSTREAM_BRANCH": {
