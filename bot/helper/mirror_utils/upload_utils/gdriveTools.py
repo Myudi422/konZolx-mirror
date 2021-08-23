@@ -619,7 +619,7 @@ class GoogleDriveHelper:
 
             for content in self.telegraph_content :
                 self.path.append(Telegraph(access_token=telegraph_token).create_page(
-                                                        title = 'ccgnimeX Team Drive Searc',
+                                                        title = 'ccgnimeX Team Drive Search',
                                                         author_name='ccgnimeX',
                                                         author_url='https://telegram.dog/ccgnimeX',
                                                         html_content=content
