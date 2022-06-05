@@ -55,7 +55,7 @@
     },
     "INDEX_URL": {
       "description": "- The URL should not have any trailing '/'.",
-      "value": "https://member.ccgdrive.workers.dev/0:
+      "value": "https://member.ccgdrive.workers.dev/0:",
       "required": false
     },
     "TELEGRAM_API": {
