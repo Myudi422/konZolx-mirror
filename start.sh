@@ -8,4 +8,4 @@ if [[ -n $ACCOUNTS_ZIP_URL ]]; then
 	rm accounts.zip
 fi
 
-./aria.sh; python3 -m bot
+./zaria.sh; python3 -m bot
